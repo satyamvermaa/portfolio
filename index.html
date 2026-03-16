@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Satyam Portfolio</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="logo">Portfolio</div>
+
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <ul id="nav-links">
+
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="RESUME.pdf">Resume</a></li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- HOME -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p class="small">— I am</p>
+
+            <h1>Satyam</h1>
+
+            <h3>Economics Graduate | ITI NTC</h3>
+
+            <p class="desc">
+
+                Economics graduate with commerce background and technical training through ITI.
+                Interested in economic analysis, business understanding, and technical skills.
+
+            </p>
+
+            <a href="#about">
+                <button>About Me</button>
+            </a>
+
+        </div>
+
+
+        <div class="hero-img">
+
+            <img src="Satyam.jpg">
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section id="about" class="section">
+
+        <h2>About Me</h2>
+
+        <p>
+
+            I have an academic background in Commerce and Economics along with technical
+            training through an ITI National Trade Certificate program.
+
+            My education helped me develop analytical thinking, business knowledge,
+            teamwork skills and practical technical experience.
+
+        </p>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+
+    <section id="education" class="section">
+
+        <h2>Education</h2>
+
+        <div class="card">
+
+            <h3>Matriculation</h3>
+
+            <p>
+                Participated in school sports activities, cultural programs and school events.
+                Developed discipline, teamwork and communication skills.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>Intermediate (Commerce)</h3>
+
+            <p>
+
+                Studied Accounting, Business Studies and Economics.
+                Participated in academic discussions, group projects and college activities.
+
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>Graduation (Economics)</h3>
+
+            <p>
+
+                Studied microeconomics, macroeconomics and economic policy.
+                Participated in economic discussions and research projects.
+
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>ITI – National Trade Certificate</h3>
+
+            <p>
+
+                Completed practical technical training with workshops,
+                hands-on projects and industrial tools experience.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="section">
+
+        <h2>Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill">Economic Analysis</div>
+            <div class="skill">Business Knowledge</div>
+            <div class="skill">Analytical Thinking</div>
+            <div class="skill">Technical Skills</div>
+            <div class="skill">Problem Solving</div>
+            <div class="skill">Teamwork</div>
+            <div class="skill">Communication</div>
+            <div class="skill">Current Affairs</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="section">
+
+        <br>
+        <h2>Contact</h2>
+
+        <p>Email: satyam52057@gmail.com</p>
+
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/mr-satyam-b05400240/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="https://github.com/satyamvermaa" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/satyam_karn_74/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/share/1RLMFiQua5/" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- RESUME -->
+
+    <section id="resume" class="section">
+
+        <h2>Resume</h2>
+
+        <p>You can download my resume below.</p>
+
+        <a href="resume.pdf" download>
+
+            <button class="resume-btn">Download Resume</button>
+
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>© 2026 Satyam Verma. All Rights Reserved</p>
+
+    </footer>
+
+
+    <script>
+
+        const menuToggle = document.getElementById("menu-toggle");
+        const navLinks = document.getElementById("nav-links");
+
+        menuToggle.onclick = function () {
+
+            navLinks.classList.toggle("active");
+            menuToggle.classList.toggle("active");
+
+        };
+
+    </script>
+
+</body>
+
+</html>
